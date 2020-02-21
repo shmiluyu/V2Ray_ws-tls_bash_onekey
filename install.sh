@@ -299,7 +299,7 @@ modify_nginx_other(){
 web_camouflage(){
     ##请注意 这里和LNMP脚本的默认路径冲突，千万不要在安装了LNMP的环境下使用本脚本，否则后果自负
     rm -rf /home/wwwroot && mkdir -p /home/wwwroot && cd /home/wwwroot
-    git clone https://github.com/wulabing/3DCEList.git
+    git clone https://github.com/shmiluyu/3DCEList.git
     judge "web 站点伪装"
 }
 v2ray_install(){
